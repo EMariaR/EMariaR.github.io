@@ -7,4 +7,5 @@ public class printerTest {
         System.out.println("Printeri tooneri tase on " + printer1.getTooneriTase() +"%");
         System.out.println("Printeris on " + printer1.getTooneriTase() + "%");
     }
+
 }
