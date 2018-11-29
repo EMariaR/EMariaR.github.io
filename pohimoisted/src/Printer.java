@@ -9,7 +9,7 @@ public class Printer {
         this.paberPrintimiseks = 100;
         this.kahepoolne = kahepoolne;
     }
-
+    
     public Integer getTooneriTase() {
         return tooneriTase;
     }
