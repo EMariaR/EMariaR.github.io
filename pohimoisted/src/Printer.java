@@ -5,14 +5,13 @@ public class Printer {
 
     //nüüd vaja konstruktorit
     public Printer(Integer tooneriTase, Boolean kahepoolne) {
-        if(tooneriTase >=0 & tooneriTase >= 100) {
+        if(tooneriTase >= 0 & tooneriTase <= 100) {
             this.tooneriTase = tooneriTase;
         } else if (tooneriTase > 100) {
             this.tooneriTase = 100;
         } else {
             this.tooneriTase = 0;
         }
-        this.tooneriTase = tooneriTase;
         this.paberPrintimiseks = 100;
         this.kahepoolne = kahepoolne;
     }
@@ -36,7 +35,7 @@ public class Printer {
 
     public Integer prindi(Integer lehtedeArv) {
         Integer paberiKulu = lehtedeArv;
-        if (this.kahepoolne) {
+        if (this.kahepoolne){
             paberiKulu = lehtedeArv / 2 + lehtedeArv % 2;
             System.out.println("kahepoolne printimine");
         }
@@ -56,15 +55,12 @@ public class Printer {
             System.out.println("Printerisse on lisatud " + lehtedeArv + " paberit");
         }
             return  this.paberPrintimiseks:
-        }
-
-        this.paberPrintimiseks = this.paberPrintimiseks - paberiKulu;
-        return  paberiKulu;
-    }
+      }
 
     // getter
     public Integer getPaberPrintimiseks() {
         return paberPrintimiseks;
+       }
     }
 }
 
