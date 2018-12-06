@@ -1,0 +1,12 @@
+# OOP
+## Teemad
+* Objekti tüüp, objekti omadused ja meetodid
+* Tüübi konstruktor (ilma ja parameetri[te]ga)
+* Klassi kirjelduste laiendamine päriluse abil
+  * `xtends` võtmesõna kasutamine
+  * `super` võtmesõna kasutamine
+* Objekti loomine erinevatest komponentidest kompositsiooni abil
+* Objekti turvamine kapselduse abil
+  * `public` vs `private`
+  * `getterid` ja `setterid`
+*@Override kasutamine
